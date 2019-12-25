@@ -1,0 +1,111 @@
+.page-header {
+    display: flex;
+}
+
+.page-header h2 {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+th {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 10px 5px;
+}
+
+td {
+    border-bottom: 1px solid lightgray;
+}
+
+td:nth-last-child(2) {
+    text-transform: capitalize;
+}
+
+td:last-child {
+    display: flex;
+    direction: rtl;
+    align-content: flex-end;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    height: 22px;
+    width: 60px;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+.add-btn {
+    background: green;
+    height: 32px;
+    margin-top: 20px;
+    width: 120px;
+    margin-right: 5px;
+}
+
+.user-form {
+    margin: 20px 0;
+    display: flex;
+    padding: 0 5px;
+}
+
+.user-form div {
+    flex: 1;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.user-form div:last-child {
+    display: flex;
+    direction: rtl;
+    padding-right: 0px;
+}
+
+.user-form input[type=text] {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+}
+
+.submit-btn {
+    background: green;
+}
+
+.cancel-btn {
+    background: lightgray;
+    color: black;
+    margin-right: 10px;
+}
+
+.edit-btn {
+    background: blue;
+    margin-right: 10px;
+}
+
+.delete-btn {
+    background: red;
+}
+
+.invalid-feedback {
+    font-size: 12px;
+    color: red;
+}
